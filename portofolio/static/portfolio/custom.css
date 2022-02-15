@@ -1,0 +1,44 @@
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,1) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.5) !important;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 36px;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width: 568px) {
+    #hometext {
+        font-size: 24px;
+    }
+    #blogtitle {
+        margin-top: 20px;
+        font-size:40px;
+    }
+    .subtitle h3{
+        font-size: 20px;
+    }
+    h4,h5 {
+        font-size: 16px;
+    }
+    .blogtitle2 {
+        font-size: 24px;
+    }
+}
